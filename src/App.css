@@ -1,0 +1,19 @@
+.newsGridBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 10px;
+}
+.card{
+    position: relative;
+}
+.source_Item{
+    position: absolute;
+    top: -1.5%;
+    right: -1.5%;
+    z-index: 111;
+    background-color: #dc3545;
+    border-radius: 50px;
+    padding: .1rem .3rem ;
+    border: 1px solid white;
+    color: white;
+}
